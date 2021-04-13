@@ -28,6 +28,9 @@ NodeMCU ESP8266 Smart Home
 4.Info: 
   - NodeMCU ESP8266
       1.Pinout 
+
+![](images/1.JPG)
+
   - Relays 
       1. Specifications 
 
