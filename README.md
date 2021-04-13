@@ -3,21 +3,21 @@ Personal Project
 
 NodeMCU ESP8266 Smart Home
 
-1.Guidelines:
+1. Guidelines:
   - Alexa for controlling all electronics in the room
   - Smart outlet for room light
       1. Relays to control power source
   - Smart servo to turn on computer
   - ESP8266 for connection to Alexa
 
-2.Parts:
+2. Parts:
   - NodeMCU ESP8266
   - Relays 
   - Metal gear standard servo motor
   - Plastic project boxes
   - Outlet extension cord
 
-3.Links:
+3. Links:
   - Documentation
       1. https://nodemcu.readthedocs.io/en/release/getting-started/ 
   - Product links
@@ -25,7 +25,7 @@ NodeMCU ESP8266 Smart Home
       2. https://www.amazon.com/gp/product/B07M88JRFY/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1 
       3. https://www.adafruit.com/product/1142 
 
-4.Info: 
+4. Info: 
   - NodeMCU ESP8266
       1.Pinout 
 
@@ -36,7 +36,7 @@ NodeMCU ESP8266 Smart Home
 
 ![](images/2.JPG)
 
-5.Designs:
+5. Designs:
   - Smart light outlet
       - Relay control
         1. IN to D7
@@ -60,5 +60,5 @@ NodeMCU ESP8266 Smart Home
 
 ![](images/6.JPG)
 
-6.Issues: 
+6. Issues: 
   - High pitch whine from PWM signal Due to 8-bit MCU with 8-bit PWM signal generating a human audible sound. Solved by setting delays into the code, changing the minimal interval to 15000, and changing the PWM frequency to 30000 instead of 1000 so the timings will be slightly off from the human hearing range
