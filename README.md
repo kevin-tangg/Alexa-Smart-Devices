@@ -1,7 +1,6 @@
 # Alexa-Smart-Devices
-Personal Project
 
-NodeMCU ESP8266 Smart Home
+NodeMCU ESP8266 Smart Home Personal Project
 
 1. Guidelines:
   - Alexa for controlling all electronics in the room
