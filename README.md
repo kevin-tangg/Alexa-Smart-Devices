@@ -3,7 +3,7 @@
 NodeMCU ESP8266 Smart Home Personal Project
 
 1. Guidelines:
-  - Alexa for controlling all electronics in the room
+  - Alexa for turning on/off the room light and Computer
   - Smart outlet for room light
       1. Relays to control power source
   - Smart servo to turn on computer
