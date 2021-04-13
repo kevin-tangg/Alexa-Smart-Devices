@@ -60,4 +60,4 @@ NodeMCU ESP8266 Smart Home Personal Project
 ![](images/6.JPG)
 
 6. Issues: 
-  - High pitch whine from PWM signal Due to 8-bit MCU with 8-bit PWM signal generating a human audible sound. Solved by setting delays into the code, changing the minimal interval to 15000, and changing the PWM frequency to 30000 instead of 1000 so the timings will be slightly off from the human hearing range
+  - High pitch whine from PWM signal due to 8-bit MCU with 8-bit PWM signal generating a human audible sound through the wire as an antenna. Solved by setting delays into the code, changing the minimal interval to 15000, and changing the PWM frequency to 30000 instead of 1000 so the frequency will be out of the human hearing range
