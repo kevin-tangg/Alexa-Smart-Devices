@@ -38,10 +38,10 @@ NodeMCU ESP8266 Smart Home
 
 5.Designs:
   - Smart light outlet
-        1. Relay control
-        2. IN to D7
-        3. DC+ to Vin
-        4. DC- to GND
+      - Relay control
+        1. IN to D7
+        2. DC+ to Vin
+        3. DC- to GND
       - Relay power
         1. NO to power source
         2. COM to ground
