@@ -34,6 +34,8 @@ NodeMCU ESP8266 Smart Home
   - Relays 
       1. Specifications 
 
+![](images/2.JPG)
+
 5.Designs:
   - Smart light outlet
         1. Relay control
@@ -43,11 +45,20 @@ NodeMCU ESP8266 Smart Home
       - Relay power
         1. NO to power source
         2. COM to ground
+
+![](images/3.JPG)
+
+![](images/4.JPG)
+
   - Smart computer switch
     - Servo pins:
       1. PWM signal to D1
       2. Power to Vin
       3. Ground to GND
+
+![](images/5.JPG)
+
+![](images/6.JPG)
 
 6.Issues: 
   - High pitch whine from PWM signal Due to 8-bit MCU with 8-bit PWM signal generating a human audible sound. Solved by setting delays into the code, changing the minimal interval to 15000, and changing the PWM frequency to 30000 instead of 1000 so the timings will be slightly off from the human hearing range
